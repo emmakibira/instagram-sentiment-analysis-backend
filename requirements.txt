@@ -1,0 +1,7 @@
+flask==3.0.0
+flask-cors==4.0.0
+requests==2.32.0
+beautifulsoup4==4.12.2
+python-dotenv==1.0.0
+emoji==2.14.0
+gunicorn==23.0.0

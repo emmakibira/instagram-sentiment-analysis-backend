@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "instagram-sentiment-analysis"
+version = "0.1.0"
+description = "AI sentiment analysis for Instagram comments with Python backend and React Native frontend"
+authors = ["Emmanuel "]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "3.0.0"
+flask-cors = "4.0.0"
+transformers = "4.40.2"
+torch = "2.11.0"
+scikit-learn = "1.4.2"
+numpy = "1.24.0"
+pandas = "2.2.0"
+requests = "2.32.0"
+beautifulsoup4 = "4.12.2"
+python-dotenv = "1.0.0"
+emoji = "2.14.0"
+regex = "2024.3.25"
+gunicorn = "23.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0"
+black = "^23.0"
+flake8 = "^6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
